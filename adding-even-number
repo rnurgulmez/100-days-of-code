@@ -1,0 +1,11 @@
+target = int(input("Write a number : \n")) # Enter a number between 0 and 1000
+# 🚨 Do not change the code above ☝️
+
+# Write your code here 👇
+if target >= 0 and target <= 1000:
+  total = 0
+  for i in range(0,target+1,2):
+    total += i
+  print(total)
+else:
+  print("Invalid login... Please enter a numbers from 0 to a max of 1000.")  
