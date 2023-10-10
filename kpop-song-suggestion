@@ -1,0 +1,79 @@
+print(''' 
+⢸⣿⠋⠙⠛⠛⠂⠀⠀⠀⠀⠀⠈⠙⠛⠛⠛⢻⡖⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠙⠛⠛⠛⠀⠀⠀⠀⠀⠒⠚⠛⠛⢻⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⡄⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡏⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠘⢻⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⡰⠄⠀⣀⣄⣤⠶⠶⠶⢷⣄⣸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠈⢿⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡐⣀⠊⣷⠵⠾⠛⠉⠀⠀⠀⠀⠀⠀⢹⣥⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⢹⠀⠀⢐⠃⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠛⣷⡀⡌⠁⠀⠀⠀⠀⠀⠀⠀⠀⠐⠀⠀⠝⡇⣇⢀⠀⠰⡄⠀⠀⠀⠀⢀⣷⣭⣤⣄⣀⡀⠀⠀⠀⢀⡘⠀⣔⣿⡸⢧⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠙⣿⣽⠁⠀⠀⠀⠀⠀⠀⠀⢀⣴⠶⠶⢶⣿⡈⢀⡇⠀⠁⠀⠀⠀⠀⠀⠉⠀⠀⠀⠈⠿⠉⠉⢙⣿⣦⣰⣿⠏⠻⣿⣇⡀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠈⢻⣦⠀⠀⣠⣔⣥⣤⣴⡿⡁⠀⠀⠘⢹⣟⠛⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠁⠈⠛⢿⡆⠀⢻⡇⠇⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠈⢹⣷⣾⠯⡁⠈⠍⣿⣠⣤⣄⡀⠀⢀⡿⢀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣡⣠⡌⠻⣷⡄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⢰⣧⣷⣿⠋⠩⡇⠀⠀⠀⣼⠏⠉⠀⠉⢻⣆⠘⠛⢾⣦⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⢝⠻⢦⣈⣿⣆⡀⢄⡀⠀⠀⠀
+⠀⠀⠀⠀⠠⢻⡟⢁⠀⢸⣧⢠⠂⠀⢿⡀⠀⡀⠀⢠⡿⡀⠈⠂⠹⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠠⢴⡢⠌⠉⠉⠛⠒⠲⢶⣦⡀
+⠀⠀⠀⠀⠀⣿⠁⠈⠠⠀⠉⢷⣳⠀⠈⠻⠦⠤⠴⠟⠁⠀⠀⢀⣽⠇⢀⠀⠀⣀⠀⠀⠀⠀⠀⢤⣀⠄⠀⠀⡀⠀⠀⠀⠀⠠⣅⣉⠀⠠⠄⠀⠀⠐⠀⠀⢹⡇
+⠀⠀⠀⠀⠀⣿⠀⠀⢰⡔⠀⠸⣧⠀⠀⠠⠐⠁⢀⣾⠶⡶⠶⢟⡋⠀⠀⠀⠘⣰⡷⠦⠤⠤⠤⠤⠼⡛⠿⣆⡠⡄⠀⠀⠀⣠⢤⡙⠷⣤⣀⠀⠀⠀⠀⠀⣰⡇
+⠀⠀⠀⠀⠀⣿⡆⢄⣼⡗⠀⠀⠹⢧⣌⣓⣂⣠⣶⠃⠀⠀⡄⣤⣩⣲⣤⣴⡿⡋⣀⣤⣽⣥⣤⣤⣤⣥⣤⣀⡙⠒⢒⣲⣶⠎⠁⠀⢀⠈⠉⠻⣶⣶⣶⠶⠟⠁
+⠀⠀⠀⠀⢰⡏⣠⡿⠋⠀⠀⠀⢀⣒⣭⢅⡝⠉⠁⠀⠀⢀⣼⢻⣻⣏⡥⢿⣟⠋⠉⠁⠀⠀⠀⠀⠀⠙⠪⠉⠉⠛⠦⢤⡻⣦⡄⠀⠀⠙⢦⠀⢸⡇⠀⠀⠀⠀
+⠀⠀⠀⢀⣼⠷⠋⠊⣱⠀⠠⡀⣸⡟⠀⠉⠑⠒⡄⢈⣾⠟⣿⠾⡛⠑⠒⠁⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣦⡛⢿⡿⠶⣤⣴⠀⠁⢸⡇⠀⠀⠀⠀
+⠀⠀⢰⡟⠋⠀⠀⠀⠀⠈⣢⣾⠏⠀⠀⠀⠀⢑⡟⠫⣱⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣷⠈⢷⡄⣿⢼⡀⠀⣿⡀⠀⠀⠀⠀
+⠀⡄⣿⠄⢀⠀⠀⠀⣀⣻⡿⡃⠈⠠⢄⠀⠀⣸⣧⡼⢃⣴⣿⣶⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⡆⠙⣿⣏⡏⢳⠀⢸⡇⠀⠀⠀⠀
+⠀⠇⢿⡀⢘⠦⣀⣀⣾⠟⢄⣙⣄⠀⠀⠀⣸⣿⡟⢠⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⣀⣄⠀⠀⠀⠀⠙⢿⣿⣿⣿⡿⠁⠀⢸⣿⣷⡄⠀⣼⡇⠀⠀⠀⠀
+⠀⠀⠈⠻⢷⣶⣾⠋⡠⠀⠚⠳⠬⡵⢠⣾⠋⡟⡘⢸⣿⣿⣿⣿⣿⣿⡗⠀⠀⠀⠀⠀⠀⠟⠋⣐⣄⠀⠀⠀⠀⠙⠛⠉⠀⡀⠀⢸⣿⠋⢁⣼⣟⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠈⢧⢿⡌⠲⠀⠀⠀⠀⢣⠀⢹⡇⡇⡇⠘⣿⣿⣿⣿⣿⣿⠗⠀⠀⠀⠀⣶⣶⣶⢿⡿⣿⡦⠀⠀⠀⠀⠀⠀⠀⠘⢦⡿⠋⣨⡿⠋⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠳⠟⠿⣦⡀⢀⠀⣄⡼⡎⢸⡇⣇⢧⠀⠘⠿⣿⣿⠿⠋⠀⠀⠀⠀⠀⣿⣽⣽⠀⢰⣿⠣⠇⠀⠀⠀⠀⠀⠀⣰⡿⠁⣻⡏⠐⠂⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠘⣷⠀⢀⠎⠀⠀⠾⣷⣿⡐⢳⠀⠀⠈⠁⠀⠀⠀⠀⠀⠀⠀⠉⠿⣿⣷⣿⠟⠉⠀⠀⠀⠀⣀⣴⠟⣋⣒⣴⡿⠇⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡽⢧⡈⠀⠀⠀⠀⢨⣿⣷⡀⠀⠀⣀⠀⠀⡀⠀⠀⠀⠀⡀⢀⡀⠀⠀⢀⣴⠶⠚⠲⢶⡾⠯⣅⣼⡟⠋⠒⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠿⢦⣄⠀⢀⣀⠘⢿⠻⠷⣄⣀⣀⣀⣀⣢⣠⡾⢛⡩⠍⠙⢷⣤⡟⠁⠀⠀⠀⠈⢿⡄⠉⠈⢿⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⢽⡭⣿⠇⠁⠊⠐⠿⠁⠀⠀⠀⠀⣾⠿⠵⠃⠈⠑⠀⠁⢻⣄⠠⠄⠀⠀⠀⢸⡇⡎⢀⣾⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡼⣡⣿⠀⠀⠀⠀⠀⠀⠒⠖⠢⠤⣾⢠⢳⠀⠀⠀⠀⠀⣸⡇⠃⠀⠀⠀⠀⢸⡇⠀⠀⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣣⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⣴⠏⠀⠆⠀⠀⠀⠀⣰⣿⣿⡀⠀⠀⠀⠀⣸⣥⣀⣼⡿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣜⣩⡇⠀⠀⠀⠀⠐⠀⠀⠀⠀⢹⠀⠀⠀⢐⠒⣠⡾⠋⠀⠉⠛⠷⠶⠶⢻⡿⠀⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠋⢿⣦⣄⡀⠀⠀⠀⠀⢀⣠⡾⠶⣂⡰⠶⠟⠍⠀⠀⠀⠀⠀⠀⠀⠀⣸⡇⠀⠀⠀⠀⠀⠀⡰⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡏⠻⣦⢦⠴⠾⠛⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⠀⢀⠀⠀⠀⠀⡊⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢷⣀⢺⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⡇⠀⠀⠂⠀⠀⡐⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⣽⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣤⡤⠀⠀⠀⠀⠀⠀⠸⣷⠀⠀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⡆⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⣿⡀⠀⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣇⢷⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠟⣿⣆⠀⠀⠀⢀⡀⠌⣰⡿⠇⠀⠀⡈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡿⢸⡆⠀⠀⠀⠀⠀⠀⠀⢠⣿⣿⢷⠿⠿⠶⣼⣤⣶⠿⠿⠇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⠻⢦⣄⣀⣀⣀⣠⣴⣟⠉⠀⠀⠀⠀⠀⠀⠀⠁⣁⣙⡛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+''')
+print("Welcome to our song recommendation game. Tell us a little about yourself.")
+
+mood = input("Which of these 3 moods describes you better? 'Happy','Tired','Energetic'\n").lower()
+
+if mood == 'happy':
+  print("I'm so glad you're happy, there's something just for you, be ready.")
+  color = input("What is your favorite color among these 3 options? 'Sky Blue','Soft Pink','Dark Red'\n").lower()
+  if color == "sky blue":
+    print("Here's your song suggestion! : New Jeans - ETA")
+  elif color == "soft pink":
+    print("You will love this! : LEE SSERAFIM - Good Parts(when the quality is bad but I am)")
+  elif color == "dark red":
+    print("This is definitely the song you should listen to : Red Velvet - Kingdom Come")
+  else:
+    print("Invalid text...")
+
+elif mood == 'tired':
+  print("You need to listen to something that will relax you.Before that I need to ask some more questions")
+  city = input("I'm offering you 3 tickets right now, which one would you fly to?  ' Paris','Berlin' or 'Maldives'\n").lower()
+  if city == "paris":
+    print("You won't regret listening to it and you'll want more. : Exo - Stay")
+  elif city == "berlin":
+    print("You needed this song to give you some energy : Big Bang - Haru Haru")
+  elif city == "maldives":
+    print("This song will make you feel like you're on a short vacation : Exo - Ooh La La La")
+  else:
+    print("Invalid text...")
+    
+elif mood == 'energetic':
+  print("How about getting rid of this energy with some dancing? Wait tight, something just for you is on the way.")
+  hobby = input("What do you like to do in your spare time? 'Running','Cooking' or 'Travelling'\n").lower()
+  if hobby == "running":
+    print("This song is for those like you who never run out of energy. : Block B - NalinA")
+  elif hobby == "cooking":
+    print("Here are the missing ingredients for your wonderful recipes. : Stray Kids - God's Menu")
+  elif hobby == "travelling":
+    print("Here is the song you should add to your playlist : LOONA - Paint The Town")
+  else:
+    print("Invalid text...")
+else:
+  print("Invalid text...")
