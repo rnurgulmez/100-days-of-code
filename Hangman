@@ -1,0 +1,64 @@
+# importing clear() to clear after every guess
+import os
+import random
+from hangman_words import *
+from hangman_art import *
+
+def clear():
+  os.system('clear')
+  
+# we chose a random word from our list
+chosen_word = random.choice(word_list)
+# we been using a lot lenght of chosen_word so we create a variable just to be clean
+word_length = len(chosen_word)
+
+# we set end_of_game boolean variable to whenever we wanted to end the cycle we called this and set it to True
+end_of_game = False
+# our hangman have 6 lives in total
+lives = 6
+
+# just to be fancy
+print(logo)
+
+#Testing code
+#print(f'Pssst, the solution is {chosen_word}.')
+
+# we create empty list so that we collect every guess in this empty list
+display = []
+# We used one of these symbols for each letter in our word.
+for _ in range(word_length):
+    display += "_"
+# Here we ensured that the game does not stop after a single guess, in other words, we ensured continuity.
+while not end_of_game:
+    guess = input("Guess a letter: ").lower()
+# we cleared the screen after each guess
+    clear()
+# If a letter has already been guessed, we notified the user.  
+    if guess in display:
+      print(f"You've already guessed {guess}")
+
+    #Check guessed letter
+    for position in range(word_length):
+        letter = chosen_word[position]
+        # print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
+        if letter == guess:
+            display[position] = letter
+
+    #Check if user is wrong.
+    if guess not in chosen_word:
+        #TODO-5: - If the letter is not in the chosen_word, print out the letter and let them know it's not in the word.
+        print(f"You guessed {guess}, that's not in the word. You lose a life.")
+        lives -= 1
+        if lives == 0:
+            end_of_game = True
+            print(f"You lose. The word was : {chosen_word}")
+
+    #Join all the elements in the list and turn it into a String.
+    print(f"{' '.join(display)}")
+
+    #Check if user has got all letters.
+    if "_" not in display:
+        end_of_game = True
+        print("You win.")
+
+    print(stages[lives])
